@@ -1,2 +1,4 @@
-year = 1985
-print("father birth is in",year)
+x = 30
+y = 2 * x
+print("x = ", x)
+print("y = ", y)
