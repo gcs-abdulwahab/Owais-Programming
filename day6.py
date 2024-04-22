@@ -1,4 +1,4 @@
-x = 30
-y = 2 * x
-print("x = ", x)
-print("y = ", y)
+length = 4
+width  = 2 * length
+area   = length * width
+print( "Area of rectangle is = ",area)
