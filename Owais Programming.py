@@ -1,4 +1,4 @@
-age = 15
-cy = 2024
-by = cy - age
-print("You born in ", by)
+n = 7
+price = 6
+total = n * price
+print("total price is =", total)
