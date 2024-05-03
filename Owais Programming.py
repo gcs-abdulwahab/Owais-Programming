@@ -1,6 +1,4 @@
-#  Array of names
-name = ["Owais", "Wahab", "Asad", "Iqra", "Amna" , "Ayesha", "Ali", "Ahmed", "Ahsan", "Adeel"]
-
-print (len(name))
-
-print( name [9] )
+stationary = ["pencil", "eraser", "marker", "pen"]
+n = len(stationary)
+print(stationary[0])
+print(stationary[n - 1])
