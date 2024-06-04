@@ -2,9 +2,8 @@ x = 10
 z = 20
 print("x =", x)
 print("z =", z)
-w = x
-y = z
-z = w
-x = y
+
+x,z = z,x
+
 print("x =", x)
 print("z =", z)
