@@ -1,4 +1,4 @@
-fruits = ["mango", "watermelon","appricot", "banana", "apple", "coconut", "pear", "dragon fruit"]
-for fruit in fruits:
-    if fruit[0] == 'a':
-        print(fruit)
+lucky_numbers = [88, 32, 21, 37, 44]
+for num in lucky_numbers:
+    if num % 2 ==1:
+        print(num)
