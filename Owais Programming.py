@@ -1,7 +1,7 @@
 
-def printTable ( x ,  y ):
-    for i in range(1, y + 1):
-        print(f"{x}   *   {i}   =   {x * i} ")
+def average(a,b):
+    ret = (a + b) // 2
+    return  ret
 
 
-printTable(6,4)
+print(average(5,5))
