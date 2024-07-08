@@ -1,6 +1,4 @@
-def print_square(a):
-    for i in range(a):
-            print("* " * a)
 
-
-print_square(3)
+x = 8
+for i in range(1,x+1):
+     print("* " * i)
