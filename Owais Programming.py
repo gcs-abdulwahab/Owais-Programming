@@ -1,7 +1,6 @@
+def print_square(a):
+    for i in range(a):
+            print("* " * a)
 
-def average(a,b):
-    ret = (a + b) // 2
-    return  ret
 
-
-print(average(5,5))
+print_square(3)
