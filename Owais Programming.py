@@ -1,8 +1,6 @@
 def print_square(x, ch):
     for i in range(x):
-        print(f" {ch} " * x)
-c = 50
-
-print_square(3, ".")
-print("-" * c)
-print("-"* (c * 2))
+        print(f" {ch}" * x)
+c = 8
+print_square(c, "+")
+print("-" * (c*2))
