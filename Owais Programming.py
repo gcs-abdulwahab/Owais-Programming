@@ -1,13 +1,6 @@
-def rectangles_area(x, y):
-    return x * y
-
-a = 25
-b = 25
-area = rectangles_area(a, b)
-print(f"the area of this rectangle is = {area}")
-if area <= 25 :
-    print("and that is a short rectangle")
-if area >= 25 and area <= 100:
-    print("and that is a midium rectangle")
-if area >= 100:
-    print("and that is a large rectangle")
+def multiplication(x, y):
+    for i in range(1, y + 1):
+        print(f"{x} * {i} = {x * y}")
+for i in range(1, 2 + 1):
+    multiplication(i, 10)
+    print("--------------------")
