@@ -5,8 +5,7 @@ def is_even(x):
     else:
         return False
 
-x = 33
-if is_even(x):
-    print("I am even.")
-else:
-    print("I am not even")
+
+list = [555, 55, 5, 222, 22, 2, 333, 33, 3]
+for x in list:
+    print(list)
