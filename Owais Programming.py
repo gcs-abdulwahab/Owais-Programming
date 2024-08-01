@@ -1,13 +1,9 @@
-list = [1972, 2000, 2025, 1964, 2004, 1992, 1994, 1996]
-def is_leap_year(x):
-    if x % 4 == 0:
-        return True
-    else:
-        return False
+list = [2 , 4 , 6 , 8 , 10]
+
+x= 3
+def cube(x):
+    return x * x * x
 
 
-for x in list:
-    if is_leap_year(x)== True:
-        print(f" {x}  is a Leap Year")
-    else:
-        print(f" {x}  is not a Leap Year")
+for i in range(1,11):
+    print(f"This the cube of {i} is {cube(i)}")
